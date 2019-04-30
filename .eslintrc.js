@@ -251,7 +251,10 @@ module.exports = {
         // "yield-star-spacing": "error",
         // "yoda": "error",
         "semi": 1,
-        "indent": 2,
+        "indent": [
+            2,
+            2
+        ],
         "id-length": 2,
         "camelcase": 2,
         "keyword-spacing": 1,
@@ -266,7 +269,10 @@ module.exports = {
         "func-call-spacing": 1,
         "no-multiple-empty-lines": 2,
         "padded-blocks": 2,
-        "quotes": 2,
+        "quotes": [
+            2,
+            "single"
+        ],
         "no-floating-decimal": 2,
         "object-property-newline": 2,
         "brace-style": 2,
