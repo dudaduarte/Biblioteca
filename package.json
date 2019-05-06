@@ -2,15 +2,15 @@
   "name": "package_npm",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.1.4"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nyc mocha"
   },
   "author": "",
   "license": "ISC",
