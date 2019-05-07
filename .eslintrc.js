@@ -1,7 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
     },
     "extends": "eslint:recommended",
     "globals": {
@@ -13,10 +13,17 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
-        "semi": 1,
+        "semi": [
+            2,
+            "always"
+        ],
         "indent": [
             2,
             2
+        ],
+        "linebreak-style": [
+            2,
+            "windows"
         ],
         "id-length": 2,
         "camelcase": 2,
@@ -27,11 +34,25 @@ module.exports = {
         "spaced-comment": 1,
         "key-spacing": 1,
         "no-multi-spaces": 1,
-        "space-in-parens": 1,
-        "space-before-function-paren": 1,
+        "space-in-parens": [
+            1,
+            "never"
+        ],
+        "space-before-function-paren": [
+            1,
+            "never"
+        ],
         "func-call-spacing": 1,
-        "no-multiple-empty-lines": 2,
-        "padded-blocks": 2,
+        "no-multiple-empty-lines": [
+            2,
+            {
+                "max": 1
+            }
+        ],
+        "padded-blocks": [
+            2,
+            "never"
+        ],
         "quotes": [
             2,
             "single"
@@ -39,7 +60,13 @@ module.exports = {
         "no-floating-decimal": 2,
         "object-property-newline": 2,
         "brace-style": 2,
-        "eqeqeq": 1,
+        "eqeqeq": [
+            1,
+            "always",
+            {
+                "null": "ignore"
+            }
+        ],
         "no-array-constructor": 1
     }
 };
