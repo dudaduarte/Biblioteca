@@ -1,4 +1,4 @@
-# Validador de CPF v.1.0.0
+# Validador de CPF v.1.0.2
 
 **Esta biblioteca destina-se à verificação de números de CPF, retornando true para um CPF válido, e false para um inválido.**
 Na versão atual a biblioteca verifica números de CPF tanto em números quanto em string. O usuário também pode inserir o número de CPF com pontos e traço, que a verificação acontece normalmente.
@@ -17,7 +17,7 @@ $  npm install lib-cpf
 
 ```node
 
-> const validate = require("../lib/lib-cpf");
+> const validate = require("lib-cpf");
 > validate("814.369.750-93")
 > // returns true
 

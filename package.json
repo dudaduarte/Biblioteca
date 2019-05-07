@@ -1,18 +1,26 @@
 {
   "name": "lib-cpf",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/lib-cpf.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dudaduarte/LibCPF"
+  },
+  "author": "dudaduarte",
+  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.0"
-  },
-  "scripts": {
-    "test": "nyc mocha"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
